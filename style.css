@@ -1,0 +1,115 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  display: flex;
+  justify-content: space-between;
+}
+.side-nav{
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  height: 100vh;
+  position: fixed;
+  width: 20%;
+  padding: 1rem;
+  /*box-shadow: 5px 5px 5px grey;*/
+}
+.nav-div{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0.5rem;
+}
+.nav-image img{
+   width: 40px;
+   height: 40px;
+   border-radius: 50%;
+}
+main{
+  margin-left: 20%;
+  background-color: rgba(0, 0, 0, 0.05);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.user-info{
+  display: flex;
+  align-items: center;
+}
+name{
+  display: flex;
+ }
+.user-image{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 65px;
+  height: 65px;
+  background-image: url("images/instbg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+}
+.user-image img{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+.status{
+  width: 28%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  height: 100vh;
+  padding: 2rem 0.3rem;
+}
+
+/*main styling*/
+main{
+  padding: 1rem 2rem;
+}
+.main-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+}
+.li-sh-co{
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.reactions{
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0.5rem;
+}
+.li-sh-co i{
+  font-size: 30px;
+}
+.card-react{
+  display: flex;
+  gap: 1rem;
+}
+.card-footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0.3rem;
+}
+.card p, .card small{
+  padding: 0.5rem 0.5rem;
+}
+.faint{
+  color: gray;
+}
+.card{
+  box-shadow: 1px 1px 5px grey;
+  background-color: white;
+  
+}
